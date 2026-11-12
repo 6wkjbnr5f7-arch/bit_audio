@@ -1,0 +1,18 @@
+{
+    "name": "funkaudio",
+    "version": "0.1.0",
+    "description": "Sprachnachrichten per Funk zwischen micro:bit V2",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "README.md",
+        "funkaudio.cpp",
+        "shims.d.ts",
+        "main.ts"
+    ],
+    "supportedTargets": ["microbit"],
+    "disablesVariants": ["mbdal"],
+    "public": true
+}
